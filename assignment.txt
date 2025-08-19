@@ -1,0 +1,26 @@
+# soil health toolkit
+
+
+def soil_moisture_status(moisture):
+    if moisture < 30:
+        return "Dry"
+    elif moisture <=60:
+        return "optimal"
+    else:
+        return "moist"
+    
+def fertilizer(ph):
+    if ph < 7 :
+        return "lime"
+    elif ph > 7:
+        return "need sulfur"
+    else:
+        return "no fertilizer needed"
+    
+    
+def yeild_estimate(area,productivity):
+    """"productivity """
+    return area*productivity
+
+
+sumarize this in one code assignment of this holidays 
