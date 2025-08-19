@@ -1,0 +1,9 @@
+module is a pyhton file that contain the different function
+ to perform a specific kind of a tast 
+which can be use by the  importing in different file
+
+
+
+
+package is folder which contain mutiple module and this contain 
+_init_.py which help it calling it 
